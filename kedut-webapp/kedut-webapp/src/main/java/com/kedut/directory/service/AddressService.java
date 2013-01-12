@@ -16,9 +16,6 @@ import com.kedut.directory.model.Business;
 @Transactional
 public class AddressService {
 	
-	
-	
-
 	@Autowired
 	private AddressDao addressDao;
 
