@@ -1,0 +1,26 @@
+From d83ecb93d86f753f8d92adcff054ef77fe7ecaa0 Mon Sep 17 00:00:00 2001
+From: IKENNA IBEANU <ikena.ibeanu@gmail.com>
+Date: Sat, 12 Jan 2013 15:06:48 +0000
+Subject: [PATCH] Constructor
+
+---
+ .../src/main/java/com/kedut/directory/service/AddressService.java   |    3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/kedut/kedut-webapp/src/main/java/com/kedut/directory/service/AddressService.java b/kedut/kedut-webapp/src/main/java/com/kedut/directory/service/AddressService.java
+index 3913498..2a35111 100644
+--- a/kedut/kedut-webapp/src/main/java/com/kedut/directory/service/AddressService.java
++++ b/kedut/kedut-webapp/src/main/java/com/kedut/directory/service/AddressService.java
+@@ -16,6 +16,9 @@ import com.kedut.directory.model.Business;
+ @Transactional
+ public class AddressService {
+ 	
++	public AddressService() {
++		super();
++	}
+ 	@Autowired
+ 	private AddressDao addressDao;
+ 
+-- 
+1.7.10.2 (Apple Git-33)
+
